@@ -3,64 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
+    <title>My Portfolio - Devapriya S</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="home">
-        <div class="intro">
-            <img src="your-photo.jpg" alt="Your Photo" class="profile-photo">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm [Your Name], a passionate web developer specializing in creating dynamic and responsive web applications. Explore my work and learn more about my skills and experience.</p>
-        </div>
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <p>I'm a web developer with a background in computer science. I have a strong foundation in HTML, CSS, JavaScript, and various frameworks. My professional journey includes working on diverse projects that showcase my skills and adaptability.</p>
-            <h3>Education</h3>
-            <p>[Your Degree] - [Your University] - [Year]</p>
-            <h3>Professional Experience</h3>
-            <p>[Job Title] at [Company] - [Years]</p>
-        </div>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-            <!-- Example Project -->
-            <div class="project-card">
-                <img src="project1-thumbnail.jpg" alt="Project 1">
-                <h3>Project Title 1</h3>
-                <p>A brief description of what this project is about.</p>
-                <a href="project1-details.html" class="btn">Learn More</a>
-            </div>
-            <!-- Repeat for more projects -->
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-    </section>
-    <footer>
-        <p>&copy; [Year] [Your Name]. All rights reserved.</p>
-    </footer>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home">
+    <div class="intro">
+        <img src="devapriya.jpg" alt="Devapriya S" class="profile-photo">
+        <h1>Hi, I'm Devapriya S</h1>
+        <p>Final-year Computer Science Engineering student & aspiring web developer. Passionate about building interactive web applications, Python projects, and data-driven solutions.</p>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a Computer Science Engineering student with hands-on experience in Python programming, data analysis, and web development. I enjoy solving real-world problems and building user-friendly applications.</p>
+    
+    <h3>Education</h3>
+    <ul>
+        <li><strong>B.Tech in Computer Science and Engineering</strong> — College of Engineering Chengannur (2022 – Present)</li>
+        <li><strong>Higher Secondary</strong> — SNDPHSS Chemmankara (2020 – 2022)</li>
+        <li><strong>High School</strong> — St. Johns School, Thumpamon (2020)</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    
+    <h3>Technical Skills</h3>
+    <ul>
+        <li>Programming: Python, C</li>
+        <li>Web: HTML, CSS, JavaScript</li>
+        <li>Databases: MySQL, MongoDB</li>
+        <li>Tools: VS Code, Git, GitHub</li>
+        <li>Core CS Concepts: Data Structures, Algorithms, OOP, DBMS</li>
+    </ul>
+
+    <h3>Soft Skills</h3>
+    <ul>
+        <li>Problem Solving</li>
+        <li>Adaptability</li>
+        <li>Communication</li>
+    </ul>
+</section>
+
+<section id="experience">
+    <h2>Professional Experience</h2>
+    
+    <h3>Data Science Intern — Techmahgi</h3>
+    <p><em>Kochi, Kerala — June 2025</em></p>
+    <p>Worked on Python-based data analysis, preprocessing, and visualization using standard libraries. Used real-world datasets and performed basic analytical tasks.</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Planora – Event Discovery and Planning Platform</h3>
+        <p>Developing a web-based platform to aggregate and list upcoming events using Python.</p>
+        <p><strong>Tech:</strong> Python, HTML, CSS, JavaScript, Django/Flask</p>
+    </div>
+
+    <div class="project-card">
+        <h3>SignLearn – Sign Language Learning Platform</h3>
+        <p>Interactive learning platform with Firebase Authentication and real-time database.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript, Firebase</p>
+    </div>
+
+    <div class="project-card">
+        <h3>CureKart – Online Pharmacy Management System</h3>
+        <p>Medicine order & delivery management system with MySQL database.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript, MySQL</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Devapriya S. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
+
